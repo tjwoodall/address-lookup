@@ -23,7 +23,7 @@ paths:
         Lookup of postal and BFPO (British Forces Post Office) address details within the UK
       operationId: AddressVerificationLookup
       security:
-        - applicationRestricted: [ ]
+        - Application-Restricted: [ ]
       parameters: []
       requestBody:
         description: ''
@@ -91,7 +91,7 @@ paths:
       deprecated: false
 components:
   securitySchemes:
-    applicationRestricted:
+    Application-Restricted:
       type: oauth2
       description: |
         HMRC supports OAuth 2.0 for authenticating application restricted API requests using an OAuth 2.0 Bearer Token in the AUTHORIZATION header.
