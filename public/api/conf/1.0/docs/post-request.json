@@ -13,20 +13,16 @@
       "title": "Postcode",
       "description": "Full postcode to search for, all uppercase. The internal space may be omitted",
       "type": "string",
-      "examples": [
-        "AA1 1ZZ",
-        "BB00 0BB"
-      ]
+      "example":
+        "AA1 1ZZ"
     },
     "filter": {
       "$id": "#root/filter",
       "title": "Filter",
       "description": "Refine the search results further based on house number or street name",
       "type": "string",
-      "examples": [
-        "The Rectory",
+      "example":
         "1 High Street"
-      ]
     }
   }
 }
