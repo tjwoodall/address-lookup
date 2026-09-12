@@ -41,8 +41,8 @@
                             "minLength": 1,
                             "maxLength": 35
                         },
-                        "minLength": 1,
-                        "maxLength": 3
+                        "minItems": 1,
+                        "maxItems": 3
                     },
                     "town": {
                         "type": "string",
@@ -132,10 +132,10 @@
                 "items": {
                     "type": "number",
                     "minimum": -180,
-                    "maximum": 180,
-                    "minItems": 2,
-                    "maxItems": 2
-                }
+                    "maximum": 180
+                },
+                "minItems": 2,
+                "maxItems": 2
             },
             "language": {
                 "description": "ISO639-1 code, e.g. 'en' for English",
@@ -150,7 +150,6 @@
             "poBox": {
                 "description": "Post Office Box number",
                 "type": "string",
-                "minimum": 0,
                 "minLength": 1,
                 "maxLength": 255
             }
